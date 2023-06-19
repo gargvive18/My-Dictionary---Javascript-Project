@@ -1,1 +1,1 @@
-# My-Dictionary---Javascript-Project
+# html-css-js-project-boilerplate

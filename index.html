@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dictionary</title>
+</head>
+<body>
+    <h1>My DICTIONARY App</h1>
+    <div>
+        <label for="search">Search for new word</label>
+        <input type="text" id="search">
+    </div>
+    <button onclick="display()">Search</button>
+    <button onclick="displayHistory()">History</button>
+    <button onclick="deleteHistory()">Delete Histroy</button>
+
+    <div class="definition">
+        <p class="text"></p>
+    </div>
+
+    <div class="history"></div>
+    <!-- <div class="definitions"></div> -->
+
+    <script src="./App.js"></script>
+</body>
+</html>
